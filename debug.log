@@ -1,0 +1,5 @@
+[0109/121545.808:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[0109/141850.282:ERROR:process_info.cc(359)] UncheckedAllocate
+[0109/141850.300:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\hp\AppData\Roaming\Brackets\live-dev-profile\Crashpad\attachments\9481642a-1d0f-41d3-be51-d65ce4582e59: The system cannot find the path specified. (0x3)
+[0109/141850.986:ERROR:process_info.cc(359)] UncheckedAllocate
+[0109/141906.197:ERROR:process_info.cc(359)] UncheckedAllocate

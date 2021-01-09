@@ -1,0 +1,244 @@
+body {
+    font-family: "Times";
+}
+
+.header span {
+    color: black;
+    white-space: nowrap;   
+}
+.header{
+    white-space: nowrap;
+    color: #3cacf1 ;
+    
+}
+.nav-link {
+    white-space: nowrap;
+    color: #262d4e !important;
+   
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid;
+    background: #212529 !important;
+    padding: .375rem .75rem; 
+    font-size: 1rem;
+    /* border-radius: .25rem; */
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    
+}
+ #header button:hover .btn {
+   color: #fff !important;
+}
+
+.fa-search {
+    right: 20px;
+    font-size: 20px;
+}
+
+#banner .banner-text { 
+    
+    margin-top: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+#banner .banner-text .banner-p {
+    font-size: 18px;
+    color:  color: #262d4e;
+}
+
+.search {
+    margin-bottom: auto;
+    margin-top: 20px;
+    height: 50px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px
+}
+
+.search-input {
+    color: white;
+    border: 0;
+    outline: 0;
+    background: none;
+    width: 0;
+    margin-top: 5px;
+    caret-color: transparent;
+    line-height: 20px;
+    transition: width 0.4s linear;
+}
+
+.search .search-input {
+    padding:  15px;
+    width: 100%;
+    caret-color: #536bf6;
+    font-size: 19px;
+    font-weight: 300;
+    color: #fff;
+    background: black;
+    transition: width 0.4s linear;
+    border-radius: 30px;
+}
+
+.search-icon {
+    height: 34px;
+    width: 34px;
+    float: right;
+    display: flex;
+    color: white;
+    font-size: 10px;
+    bottom: 30px;
+    position: relative;
+    border-radius: 5px;
+   
+}
+
+.search-icon:hover {
+    color: #fff !important
+}
+
+a:link {
+    text-decoration: none
+}
+
+#banner-bottom {
+    margin: 5em 0;
+    text-align: center;
+    
+}
+
+#banner-bottom  .banner-bottom-text span {
+    color: #850000;
+    
+    
+}
+#why-elearning {
+    text-align: center
+}
+#why-elearning .title{
+    margin: 2em 0;
+}
+
+#service {
+    background-color: #3cacf1 ;
+    text-align: center;
+}
+
+#service .service-box .content {
+    padding: 1em;
+    width: 400px;
+    display: inline-block;
+    color: #fff;
+        
+}
+
+#service .service-box .content button {
+    border-radius: 25px;
+    padding: 15px 35px;
+}
+#service .service-box .content {
+    text-align: left;
+}
+
+
+/*
+#service {
+    
+    position: absolute;
+	width: 100%;
+	height: 330px;
+	overflow: hidden;
+}
+
+.service-shape {
+        position: relative;
+		top: -200px;
+		left: -450px;
+		background-color: #444;
+		width: 3000px;
+		height: 530px;
+		border-radius: 50%;
+}
+
+*/
+#community {
+    margin: 3em 0;
+    text-align: center;
+}
+
+#vision {
+    text-align: center;
+    background-color: #eff1fd;
+   
+}
+#vision .vision-content {
+    padding-top: 3em;
+}
+#vision-bottom {
+    background-color: #3cacf1 ;
+    text-align: center;
+}
+#vision-bottom .vision-bottom-text{
+    color: #fff;
+    padding: 3em 0;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+} 
+#vision-bottom .vision-bottom-text .vision-btn {
+    border-radius:25px;
+    background-color: #3cacf1;
+    padding: 10px 36px;
+    border-color: #fff !important; 
+    color: #fff;
+   
+}
+
+#footer {
+    text-align: center;
+    background-color: 
+#1b2540;
+}
+#footer .info {
+    color: #fff;
+    display: flex;
+     align-items: center;
+      justify-content: center;
+    margin:3em 0;
+
+    
+}
+
+#footer .info p {
+        margin-left: 10px;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+#main-footer {
+     text-align: center;
+    background-color: 
+     #1b2540;
+}
+#main-footer .row h1 {
+    color: #fff;
+    margin: 2em 0;
+}
+#main-footer .content {
+    margin-left: 50px;
+}
+
+#main-footer .content , #main-footer .content h5 ,#main-footer .content a{
+    color: #fff;
+}
